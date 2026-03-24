@@ -84,3 +84,4 @@ repos:
 # Configuration
 default_stages: [pre-commit]
 fail_fast: false
+verbose: true
