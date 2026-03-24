@@ -11,6 +11,7 @@ repos:
         files: \.(cpp|hpp|c|h)$
         exclude: ^(3rdparty/|build.*/|install/)
         args: [--style=file]
+        verbose: true
 
   # CMake formatting
   - repo: https://github.com/cheshirekow/cmake-format-precommit
@@ -84,4 +85,3 @@ repos:
 # Configuration
 default_stages: [pre-commit]
 fail_fast: false
-verbose: true
